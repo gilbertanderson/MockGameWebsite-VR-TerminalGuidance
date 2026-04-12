@@ -20,7 +20,7 @@ export function Navigation() {
           </span>
         </Link>
 
-        <ul className="flex gap-8 items-center">
+        <ul className="flex gap-6 items-center text-sm">
           <li>
             <Link
               to="/features"
@@ -29,6 +29,26 @@ export function Navigation() {
               }`}
             >
               Features
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/gallery"
+              className={`text-gray-300 hover:text-blue-400 transition-colors focus:outline-none focus:text-blue-400  ${
+                location.pathname === '/gallery' ? 'text-orange-400' : ''
+              }`}
+            >
+              Gallery
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/roadmap"
+              className={`text-gray-300 hover:text-blue-400 transition-colors focus:outline-none focus:text-blue-400  ${
+                location.pathname === '/roadmap' ? 'text-orange-400' : ''
+              }`}
+            >
+              Roadmap
             </Link>
           </li>
           <li>
@@ -53,12 +73,32 @@ export function Navigation() {
           </li>
           <li>
             <Link
+              to="/community"
+              className={`text-gray-300 hover:text-blue-400 transition-colors focus:outline-none focus:text-blue-400  ${
+                location.pathname === '/community' ? 'text-orange-400' : ''
+              }`}
+            >
+              Community
+            </Link>
+          </li>
+          <li>
+            <Link
               to="/faq"
               className={`text-gray-300 hover:text-blue-400 transition-colors focus:outline-none focus:text-blue-400  ${
                 location.pathname === '/faq' ? 'text-orange-400' : ''
               }`}
             >
               FAQ
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/contact"
+              className={`text-gray-300 hover:text-blue-400 transition-colors focus:outline-none focus:text-blue-400  ${
+                location.pathname === '/contact' ? 'text-orange-400' : ''
+              }`}
+            >
+              Contact
             </Link>
           </li>
           <li>

@@ -310,7 +310,7 @@ export default function Home() {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              onClick={() => window.open('https://claude.ai/public/artifacts/7cb9ad61-e2ea-4a9a-a7aa-c0a0fc975d9a', '_blank')}
+              onClick={() => window.open('https://claude.ai/public/artifacts/31bd9ef5-75aa-46cb-9cad-4b47e04612d9', '_blank')}
               aria-label="Get started with Terminal Guidance - Opens in new window"
               className="bg-gradient-to-r from-blue-600 via-blue-700 to-indigo-700 hover:from-orange-600 hover:via-orange-700 hover:to-orange-600 text-white px-10 py-4 rounded-sm text-lg inline-flex items-center justify-center gap-3 transition-all shadow-lg shadow-blue-900/50 hover:shadow-orange-900/50 focus:outline-none focus:ring-4 focus:ring-blue-400"
             >

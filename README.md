@@ -1,7 +1,7 @@
 
-  # VR Game Website
+  # Terminal Guidance VR Flight Simulator Game Website
 
-  This is a code bundle for VR Game Website. The original project is available at https://www.figma.com/design/ULJgZf91IIbnLrSZC6aXo2/VR-Game-Website.
+  This is a code bundle for Terminal Guidance VR Flight Simulator Game Website. The original project is available at https://www.figma.com/design/ULJgZf91IIbnLrSZC6aXo2/Terminal-Guidance-VR-Flight-Simulator-Game-Website.
 
   ## Running the code
 

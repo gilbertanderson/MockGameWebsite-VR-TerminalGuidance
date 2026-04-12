@@ -6,6 +6,10 @@ import Requirements from "./pages/Requirements";
 import Demo from "./pages/Demo";
 import FAQ from "./pages/FAQ";
 import Pricing from "./pages/Pricing";
+import Community from "./pages/Community";
+import Gallery from "./pages/Gallery";
+import Roadmap from "./pages/Roadmap";
+import Contact from "./pages/Contact";
 import { PageTransition } from "./components/PageTransition";
 import { LoadingOverlay } from "./components/LoadingOverlay";
 
@@ -44,6 +48,10 @@ function AppRoutes() {
           <Route path="/demo" element={<Demo />} />
           <Route path="/faq" element={<FAQ />} />
           <Route path="/pricing" element={<Pricing />} />
+          <Route path="/community" element={<Community />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/roadmap" element={<Roadmap />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </PageTransition>
     </>
