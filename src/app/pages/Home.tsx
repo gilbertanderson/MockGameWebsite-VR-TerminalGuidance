@@ -178,17 +178,14 @@ export default function Home() {
           </motion.p>
 
           <motion.button
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.8 }}
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            onClick={() => window.open('https://gilbertanderson.my.canva.site/terminal-guidance-ssp', '_blank')}
-            aria-label="Begin training - Opens in new window"
-            className="bg-gradient-to-r from-blue-600 via-blue-700 to-indigo-700 hover:from-orange-600 hover:via-orange-700 hover:to-orange-600 text-white px-10 py-4 rounded-sm text-lg inline-flex items-center gap-3 transition-all shadow-lg shadow-blue-900/50 hover:shadow-orange-900/50 focus:outline-none focus:ring-4 focus:ring-blue-400"
-          >
-            Begin Training
-          </motion.button>
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              onClick={() => window.open('https://www.spaceforce.com/launch', '_blank')}
+              aria-label="Launch - Opens in new window"
+              className="bg-gradient-to-r from-blue-600 via-blue-700 to-indigo-700 hover:from-orange-600 hover:via-orange-700 hover:to-orange-600 text-white px-10 py-4 rounded-sm text-lg inline-flex items-center gap-3 transition-all shadow-lg shadow-blue-900/50 hover:shadow-orange-900/50 focus:outline-none focus:ring-4 focus:ring-blue-400"
+            >
+              Launch
+            </motion.button>
         </div>
 
         <motion.div
@@ -307,13 +304,16 @@ export default function Home() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              onClick={() => window.open('https://claude.ai/public/artifacts/31bd9ef5-75aa-46cb-9cad-4b47e04612d9', '_blank')}
-              aria-label="Get started with Terminal Guidance - Opens in new window"
-              className="bg-gradient-to-r from-blue-600 via-blue-700 to-indigo-700 hover:from-orange-600 hover:via-orange-700 hover:to-orange-600 text-white px-10 py-4 rounded-sm text-lg inline-flex items-center justify-center gap-3 transition-all shadow-lg shadow-blue-900/50 hover:shadow-orange-900/50 focus:outline-none focus:ring-4 focus:ring-blue-400"
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.8 }}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            onClick={() => window.open('https://gilbertanderson.my.canva.site/terminal-guidance-ssp', '_blank')}
+            aria-label="Simulator 1 - Opens in new window"
+            className="bg-gradient-to-r from-blue-600 via-blue-700 to-indigo-700 hover:from-orange-600 hover:via-orange-700 hover:to-orange-600 text-white px-10 py-4 rounded-sm text-lg inline-flex items-center gap-3 transition-all shadow-lg shadow-blue-900/50 hover:shadow-orange-900/50 focus:outline-none focus:ring-4 focus:ring-blue-400"
             >
-              Get Started
+              Simulator 1
             </motion.button>
 
             <motion.button
@@ -329,11 +329,11 @@ export default function Home() {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              onClick={() => window.open('https://www.spaceforce.com/launch', '_blank')}
-              aria-label="Launch - Opens in new window"
+              onClick={() => window.open('https://gilbertanderson.my.canva.site/terminal-guidance-ssp', '_blank')}
+              aria-label="Simulator 2 - Opens in new window"
               className="bg-gradient-to-r from-blue-600 via-blue-700 to-indigo-700 hover:from-orange-600 hover:via-orange-700 hover:to-orange-600 text-white px-10 py-4 rounded-sm text-lg transition-all shadow-lg shadow-blue-900/50 hover:shadow-orange-900/50 focus:outline-none focus:ring-4 focus:ring-blue-400"
             >
-              Launch
+              Simulator 2
             </motion.button>
           </div>
         </motion.div>
