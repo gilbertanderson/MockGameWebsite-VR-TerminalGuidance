@@ -174,7 +174,7 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="text-base md:text-lg text-gray-300 mb-10 max-w-3xl mx-auto leading-relaxed"
           >
-            From the Carrier Deck to the Lunar Orbit. Experience the high-stakes career of a modern pioneer. Master elite military jets, survive Test Pilot School, and earn your wings in the Astronaut Corps.
+            From the Carrier Deck to the Lunar Orbit. Experience the high-stakes career of a modern pioneer. Master elite military jets, survive Test Pilot School, and earn your wings in the Astronaut Corps. From naval launches to ISS support, become a Terminal Guidance Guardian!
           </motion.p>
 
           <motion.button
@@ -188,7 +188,6 @@ export default function Home() {
             className="bg-gradient-to-r from-blue-600 via-blue-700 to-indigo-700 hover:from-orange-600 hover:via-orange-700 hover:to-orange-600 text-white px-10 py-4 rounded-sm text-lg inline-flex items-center gap-3 transition-all shadow-lg shadow-blue-900/50 hover:shadow-orange-900/50 focus:outline-none focus:ring-4 focus:ring-blue-400"
           >
             Begin Training
-            <ArrowRight className="w-5 h-5" aria-hidden="true" />
           </motion.button>
         </div>
 
@@ -315,7 +314,6 @@ export default function Home() {
               className="bg-gradient-to-r from-blue-600 via-blue-700 to-indigo-700 hover:from-orange-600 hover:via-orange-700 hover:to-orange-600 text-white px-10 py-4 rounded-sm text-lg inline-flex items-center justify-center gap-3 transition-all shadow-lg shadow-blue-900/50 hover:shadow-orange-900/50 focus:outline-none focus:ring-4 focus:ring-blue-400"
             >
               Get Started
-              <ArrowRight className="w-5 h-5" aria-hidden="true" />
             </motion.button>
 
             <motion.button
@@ -326,6 +324,16 @@ export default function Home() {
               className="border-2 border-blue-500/50 hover:border-orange-500 hover:bg-orange-500/10 text-white px-10 py-4 rounded-sm text-lg transition-all focus:outline-none focus:ring-4 focus:ring-blue-400"
             >
               Watch Trailer
+            </motion.button>
+
+            <motion.button
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              onClick={() => window.open('https://www.spaceforce.com/launch', '_blank')}
+              aria-label="Launch - Opens in new window"
+              className="bg-gradient-to-r from-blue-600 via-blue-700 to-indigo-700 hover:from-orange-600 hover:via-orange-700 hover:to-orange-600 text-white px-10 py-4 rounded-sm text-lg transition-all shadow-lg shadow-blue-900/50 hover:shadow-orange-900/50 focus:outline-none focus:ring-4 focus:ring-blue-400"
+            >
+              Launch
             </motion.button>
           </div>
         </motion.div>
