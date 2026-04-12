@@ -187,6 +187,7 @@ export default function Demo() {
       <footer className="border-t border-blue-900/30 py-8 px-6 bg-gradient-to-b from-black via-blue-950/20 to-zinc-950">
         <div className="max-w-7xl mx-auto text-center text-sm text-gray-500">
           <p>TERMINAL GUIDANCE © 2026</p>
+          <p className="text-xs text-gray-600 italic mt-2">For demo purposes only</p>
         </div>
       </footer>
     </div>

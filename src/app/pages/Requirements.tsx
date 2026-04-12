@@ -30,10 +30,34 @@ export default function Requirements() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
-            className="text-xl text-gray-300"
+            className="text-xl text-gray-300 mb-8"
           >
             What you need to run Terminal Guidance
           </motion.p>
+
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.4 }}
+            className="flex flex-col sm:flex-row gap-4 justify-center"
+          >
+            <a
+              href="https://www.flightsimulator.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-3 bg-gradient-to-r from-blue-600 to-indigo-700 hover:from-orange-600 hover:to-orange-700 text-white rounded-sm transition-all shadow-lg shadow-blue-900/50 hover:shadow-orange-900/50 focus:outline-none focus:ring-4 focus:ring-blue-400"
+            >
+              Flight Simulator
+            </a>
+            <a
+              href="https://www.youtube.com/watch?v=ORLCiebYh10&list=PLHHNa7e7hf9MqQB-RV6bxHYiLcTQkgGfi&index=1"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-3 bg-gradient-to-r from-blue-600 to-indigo-700 hover:from-orange-600 hover:to-orange-700 text-white rounded-sm transition-all shadow-lg shadow-blue-900/50 hover:shadow-orange-900/50 focus:outline-none focus:ring-4 focus:ring-blue-400"
+            >
+              Dev Stream
+            </a>
+          </motion.div>
         </div>
       </section>
 
@@ -202,6 +226,7 @@ export default function Requirements() {
       <footer className="border-t border-blue-900/30 py-8 px-6 bg-gradient-to-b from-black via-blue-950/20 to-zinc-950">
         <div className="max-w-7xl mx-auto text-center text-sm text-gray-500">
           <p>TERMINAL GUIDANCE © 2026</p>
+          <p className="text-xs text-gray-600 italic mt-2">For demo purposes only</p>
         </div>
       </footer>
     </div>

@@ -7,13 +7,14 @@ import { Navigation } from "../components/Navigation";
 export default function Home() {
   const videoRef = useRef<HTMLVideoElement>(null);
   const audioRef = useRef<HTMLAudioElement>(null);
-  const heroRef = useRef<HTMLDivElement>(null);
+  const heroRef = useRef<HTMLElement>(null);
   const [isMuted, setIsMuted] = useState(true);
   const [audioLoaded, setAudioLoaded] = useState(false);
 
   const { scrollYProgress } = useScroll({
     target: heroRef,
-    offset: ["start start", "end start"]
+    offset: ["start start", "end start"],
+    layoutEffect: false
   });
 
   const heroOpacity = useTransform(scrollYProgress, [0, 0.5], [1, 0]);
@@ -333,9 +334,12 @@ export default function Home() {
       {/* Footer */}
       <footer className="border-t border-blue-900/30 py-8 px-6 bg-gradient-to-b from-black via-blue-950/20 to-zinc-950">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
-          <div className="flex items-center gap-2">
-            <Plane className="w-5 h-5 text-blue-500" aria-hidden="true" />
-            <span>TERMINAL GUIDANCE © 2026</span>
+          <div className="flex flex-col items-center md:items-start gap-1">
+            <div className="flex items-center gap-2">
+              <Plane className="w-5 h-5 text-blue-500" aria-hidden="true" />
+              <span>TERMINAL GUIDANCE © 2026</span>
+            </div>
+            <span className="text-xs text-gray-600 italic">For demo purposes only</span>
           </div>
           <nav aria-label="Footer navigation">
             <ul className="flex gap-4">
