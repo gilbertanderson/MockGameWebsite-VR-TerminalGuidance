@@ -55,9 +55,9 @@ export default function Features() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-6 max-w-4xl mx-auto bg-gradient-to-r from-blue-400 via-orange-400 to-yellow-300 bg-clip-text text-transparent"
+            className="text-4xl sm:text-4xl md:text-5xl lg:text-6xl mb-8 max-w-4xl mx-auto bg-gradient-to-r from-blue-400 via-orange-400 to-yellow-300 bg-clip-text text-transparent"
           >
-            Uncompromising Realism
+            Unprecedented Realism
           </motion.h1>
 
           <motion.p
