@@ -351,9 +351,9 @@ export default function Home() {
           </div>
           <nav aria-label="Footer navigation">
             <ul className="flex gap-4">
-              <li><button onClick={() => window.open('https://linkedin.com/in/gilbertanderson', '_blank')} aria-label="About - Visit LinkedIn profile (opens in new window)" className="px-6 py-2 bg-blue-500 hover:bg-amber-600 text-white rounded-sm transition-colors focus:outline-none focus:ring-4 focus:ring-blue-400">About</button></li>
-              <li><button onClick={() => window.open('https://gilbertanderson.my.canva.site/wcag-color-access-sim', '_blank')} aria-label="Compliance - View WCAG accessibility information (opens in new window)" className="px-6 py-2 bg-blue-600 hover:bg-orange-600 text-white rounded-sm transition-colors focus:outline-none focus:ring-4 focus:ring-blue-400">Compliance</button></li>
-              <li><button onClick={() => window.open('http://umgc.edu/', '_blank')} aria-label="Education - Visit UMGC website (opens in new window)" className="px-6 py-2 bg-indigo-700 hover:bg-orange-800 text-white rounded-sm transition-colors focus:outline-none focus:ring-4 focus:ring-indigo-400">Education</button></li>
+              <li><button onClick={() => window.open('https://linkedin.com/in/gilbertanderson', '_blank')} aria-label="About - Visit LinkedIn profile (opens in new window)" className="px-4 py-1 bg-blue-500 hover:bg-amber-600 text-white rounded-sm transition-colors focus:outline-none focus:ring-4 focus:ring-blue-400">About</button></li>
+              <li><button onClick={() => window.open('https://gilbertanderson.my.canva.site/wcag-color-access-sim', '_blank')} aria-label="Compliance - View WCAG accessibility information (opens in new window)" className="px-4 py-1 bg-blue-600 hover:bg-orange-600 text-white rounded-sm transition-colors focus:outline-none focus:ring-4 focus:ring-blue-400">Compliance</button></li>
+              <li><button onClick={() => window.open('http://umgc.edu/', '_blank')} aria-label="Education - Visit UMGC website (opens in new window)" className="px-4 py-1 bg-indigo-700 hover:bg-orange-800 text-white rounded-sm transition-colors focus:outline-none focus:ring-4 focus:ring-indigo-400">Education</button></li>
             </ul>
           </nav>
         </div>
