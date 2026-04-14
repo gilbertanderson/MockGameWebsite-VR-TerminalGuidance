@@ -174,7 +174,7 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="text-base md:text-lg text-gray-300 mb-10 max-w-3xl mx-auto leading-relaxed"
           >
-            From the Carrier Deck to the Lunar Orbit. Experience the high-stakes career of a modern pioneer. Master elite military jets, survive Test Pilot School, and earn your wings in the Astronaut Corps.
+            From the Carrier Deck to the Lunar Orbit. Experience the high-stakes career of a modern pioneer. Master elite military jets, survive Test Pilot School, and earn your wings in the Astronaut Corps and become a Terminal Guidance Guardian!
           </motion.p>
 
           <motion.button
