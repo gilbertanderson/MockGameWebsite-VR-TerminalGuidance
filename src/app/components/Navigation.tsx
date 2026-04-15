@@ -12,7 +12,7 @@ export function Navigation() {
       transition={{ duration: 0.6 }}
       className="sticky top-0 left-0 right-0 z-50 bg-black/90 backdrop-blur-lg border-b border-blue-900/30"
     >
-      <div className="max-w-7xl mx-auto px-6 py-4 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+      <div className="max-w-7xl mx-auto px-6 py-4 flex flex-col gap-4 md:flex-row md:items-center md:justify-between lg:flex-row lg:items-center lg:justify-between">
         <Link to="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity focus:outline-none focus:ring-2 focus:ring-blue-400 rounded-sm">
           <Plane className="w-6 h-6 text-blue-500" aria-hidden="true" />
           <span className="text-xl font-medium bg-gradient-to-r from-blue-400 via-orange-400 to-yellow-300 bg-clip-text text-transparent">
@@ -106,7 +106,7 @@ export function Navigation() {
               to="/pricing"
               className="px-6 py-2 bg-gradient-to-r from-blue-600 to-indigo-700 hover:from-orange-600 hover:to-orange-700 text-white rounded-sm transition-all focus:outline-none focus:ring-4 focus:ring-blue-400 md:ml-6"
             >
-              Get Started
+              Get&nbsp;Started
             </Link>
           </li>
         </ul>
