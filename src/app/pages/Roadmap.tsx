@@ -16,7 +16,7 @@ export default function Roadmap() {
         { name: "UH-60 Black Hawk - Helicopter flight dynamics", completed: true },
         { name: "Orion Spacecraft - Artemis II lunar mission", completed: true },
         { name: "Career progression system", completed: true },
-        { name: "VR optimization for Meta Quest 3 & PSVR2", completed: false }
+        { name: "VR optimization for Meta Quest 3 & HTC Vive Pro 2", completed: false }
       ]
     },
     {

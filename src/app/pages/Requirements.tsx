@@ -4,12 +4,16 @@ import { CheckCircle2, AlertCircle } from "lucide-react";
 
 export default function Requirements() {
   const vrHeadsets = [
+    { name: "HTC Vive Pro 2", status: "Recommended", color: "text-green-400" },
     { name: "Meta Quest 3", status: "Recommended", color: "text-green-400" },
+    { name: "Meta Quest 3S", status: "Supported", color: "text-blue-400" },
     { name: "Meta Quest 2", status: "Supported", color: "text-blue-400" },
     { name: "Meta Quest Pro", status: "Supported", color: "text-blue-400" },
     { name: "Valve Index", status: "Supported", color: "text-blue-400" },
-    { name: "HTC Vive Pro 2", status: "Supported", color: "text-blue-400" },
-    { name: "Pico 4", status: "Coming Soon", color: "text-orange-400" }
+    { name: "Steam Frame", status: "Coming Soon", color: "text-orange-400" },
+    { name: "Apple Vision Pro", status: "Coming Soon", color: "text-orange-400" },
+    { name: "Microsoft HoloLens 2", status: "Coming Soon", color: "text-orange-400" },
+    { name: "Sony PlayStation VR2", status: "Coming Soon", color: "text-orange-400" }
   ];
 
   return (
