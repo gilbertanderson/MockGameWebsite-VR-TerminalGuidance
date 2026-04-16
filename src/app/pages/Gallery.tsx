@@ -266,7 +266,7 @@ export default function Gallery() {
             href="/pricing"
             className="inline-block px-8 py-4 bg-gradient-to-r from-orange-600 to-orange-700 hover:from-blue-600 hover:to-indigo-700 text-white rounded-sm transition-all text-lg focus:outline-none focus:ring-4 focus:ring-orange-400"
           >
-            Get Early Access - FREE
+            Get Early Access
           </a>
         </motion.div>
       </section>

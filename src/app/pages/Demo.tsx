@@ -172,12 +172,12 @@ export default function Demo() {
               Experience the career progression from carrier deck to lunar orbit
             </p>
             <a
-              href="https://rosebud.ai/p/project-lunar-leap"
+              href="/pricing"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block px-10 py-4 bg-gradient-to-r from-blue-600 to-indigo-700 hover:from-orange-600 hover:to-orange-700 text-white rounded-sm text-lg transition-all shadow-lg shadow-blue-900/50 hover:shadow-orange-900/50 focus:outline-none focus:ring-4 focus:ring-blue-400"
             >
-              Get Started
+              Get Early Access
             </a>
           </motion.div>
         </div>
