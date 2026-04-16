@@ -87,7 +87,7 @@ export default function Pricing() {
             </div>
 
             <a
-              href="https://claude.ai/public/artifacts/7cb9ad61-e2ea-4a9a-a7aa-c0a0fc975d9a"
+              href="https://rosebud.ai/p/project-lunar-leap"
               target="_blank"
               rel="noopener noreferrer"
               className="block w-full py-4 bg-gradient-to-r from-blue-600 to-indigo-700 hover:from-orange-600 hover:to-orange-700 text-white text-center rounded-sm text-lg transition-all shadow-lg shadow-blue-900/50 hover:shadow-orange-900/50 focus:outline-none focus:ring-4 focus:ring-blue-400"
@@ -96,7 +96,7 @@ export default function Pricing() {
             </a>
 
             <p className="text-center text-gray-400 text-sm mt-4">
-              30-day money-back guarantee. Compatible with Meta Quest, Valve Index, and more.
+              30-day money-back guarantee. Compatible with Meta Quest,  HTC Vive, Valve, and more.
             </p>
           </motion.div>
         </div>
