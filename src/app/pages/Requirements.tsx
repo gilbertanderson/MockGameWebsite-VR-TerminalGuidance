@@ -4,12 +4,16 @@ import { CheckCircle2, AlertCircle } from "lucide-react";
 
 export default function Requirements() {
   const vrHeadsets = [
+    { name: "HTC Vive Pro 2", status: "Recommended", color: "text-green-400" },
     { name: "Meta Quest 3", status: "Recommended", color: "text-green-400" },
+    { name: "Meta Quest 3S", status: "Supported", color: "text-blue-400" },
     { name: "Meta Quest 2", status: "Supported", color: "text-blue-400" },
     { name: "Meta Quest Pro", status: "Supported", color: "text-blue-400" },
     { name: "Valve Index", status: "Supported", color: "text-blue-400" },
-    { name: "HTC Vive Pro 2", status: "Supported", color: "text-blue-400" },
-    { name: "Pico 4", status: "Coming Soon", color: "text-orange-400" }
+    { name: "Steam Frame", status: "Coming Soon", color: "text-orange-400" },
+    { name: "Apple Vision Pro", status: "Coming Soon", color: "text-orange-400" },
+    { name: "Microsoft HoloLens 2", status: "Coming Soon", color: "text-orange-400" },
+    { name: "Sony PlayStation VR2", status: "Coming Soon", color: "text-orange-400" }
   ];
 
   return (
@@ -34,30 +38,6 @@ export default function Requirements() {
           >
             What you need to run Terminal Guidance
           </motion.p>
-
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.4 }}
-            className="flex flex-col sm:flex-row gap-4 justify-center"
-          >
-            <a
-              href="https://www.flightsimulator.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-8 py-3 bg-gradient-to-r from-blue-600 to-indigo-700 hover:from-orange-600 hover:to-orange-700 text-white rounded-sm transition-all shadow-lg shadow-blue-900/50 hover:shadow-orange-900/50 focus:outline-none focus:ring-4 focus:ring-blue-400"
-            >
-              Flight Simulator
-            </a>
-            <a
-              href="https://www.youtube.com/watch?v=ORLCiebYh10&list=PLHHNa7e7hf9MqQB-RV6bxHYiLcTQkgGfi&index=1"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-8 py-3 bg-gradient-to-r from-blue-600 to-indigo-700 hover:from-orange-600 hover:to-orange-700 text-white rounded-sm transition-all shadow-lg shadow-blue-900/50 hover:shadow-orange-900/50 focus:outline-none focus:ring-4 focus:ring-blue-400"
-            >
-              Dev Stream
-            </a>
-          </motion.div>
         </div>
       </section>
 

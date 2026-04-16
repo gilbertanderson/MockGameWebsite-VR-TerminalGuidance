@@ -96,7 +96,7 @@ export default function Pricing() {
             </a>
 
             <p className="text-center text-gray-400 text-sm mt-4">
-              30-day money-back guarantee. Compatible with Meta Quest, Valve Index, and more.
+              30-day money-back guarantee. Compatible with Meta Quest,  HTC Vive, Valve, and more.
             </p>
           </motion.div>
         </div>
