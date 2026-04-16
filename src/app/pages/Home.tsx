@@ -329,7 +329,7 @@ export default function Home() {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              onClick={() => window.open('https://gilbertanderson.my.canva.site/terminal-guidance-ssp', '_blank')}
+              onClick={() => window.open('https://rosebud.ai/p/project-lunar-leap', '_blank')}
               aria-label="Simulator 2 - Opens in new window"
               className="bg-gradient-to-r from-blue-600 via-blue-700 to-indigo-700 hover:from-orange-600 hover:via-orange-700 hover:to-orange-600 text-white px-10 py-4 rounded-sm text-lg transition-all shadow-lg shadow-blue-900/50 hover:shadow-orange-900/50 focus:outline-none focus:ring-4 focus:ring-blue-400"
             >
